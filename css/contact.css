@@ -1,0 +1,112 @@
+.contact-h1 {
+  font-size: 35px;
+  line-height: 0.95em;
+  text-align: center;
+  font-family: poppins semi-bold600;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+.group-input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #000000;
+  width: 43%;
+  margin-top: 30px;
+}
+.group-input:focus {
+  border: none;
+  border-bottom: 3px solid #0150fd;
+}
+.msg-input {
+  background-color: red;
+  margin-top: 100px;
+}
+.star {
+  color: #0150fd;
+}
+.group-box {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #000000;
+  width: 100%;
+  margin-top: 30px;
+}
+.input:focus {
+  border: none;
+  border-bottom: 3px solid #0150fd;
+
+  cursor: pointer;
+}
+.button {
+  width: 120px;
+  height: 35px;
+  border: none;
+  color: #fff;
+  background-color: #0150fd;
+  border-radius: 20px;
+}
+.button:focus {
+  border: 2px solid #0150fd;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.body {
+  margin: 0;
+  font-weight: bold;
+  background-color: #f4ece6;
+  padding-bottom: 8%;
+}
+.main {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+.box {
+  width: 100%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.group {
+  display: flex;
+
+  justify-content: space-between;
+}
+.group-label {
+  width: 43%;
+}
+.form1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.span {
+  color: black;
+  font-size: 14px;
+}
+.span1 {
+  text-decoration: underline;
+  color: black;
+}
+
+ul {
+  list-style: square;
+}
+ul li {
+  color: royalblue;
+}
+
